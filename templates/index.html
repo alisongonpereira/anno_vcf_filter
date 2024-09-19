@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCF Variant Filtering</title>
+</head>
+<body>
+    <h1>VCF Variant Filtering</h1>
+    <form action="/filter" method="GET">
+        <label for="af_threshold">AF Threshold (Frequência):</label>
+        <input type="number" id="af_threshold" name="af_threshold" step="0.01" placeholder="e.g., 0.01" required><br><br>
+
+        <label for="dp_threshold">DP Threshold (Profundidade):</label>
+        <input type="number" id="dp_threshold" name="dp_threshold" placeholder="e.g., 10" required><br><br>
+
+        <button type="submit">Filtrar Variantes</button>
+    </form>
+</body>
+</html>
