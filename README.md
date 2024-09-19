@@ -20,8 +20,6 @@ Este projeto visa anotar um arquivo VCF utilizando **Snakemake** e, em seguida, 
 Antes de rodar o projeto, certifique-se de ter as seguintes dependências instaladas:
 
 - **Python 3.7+**
-- **Conda** ou **Virtualenv** (para gerenciar ambientes)
-- **bcftools**
 - **vep** (Variant Effect Predictor, v112. Para o presente projeto, foi baixado e estava disponível em cache)
 
 ###  Executando o Snakemake para Anotar o VCF
